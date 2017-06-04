@@ -1,10 +1,10 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import { Test } from './test';
+import { SamplePage } from './samplePage';
 const render = () => {
   ReactDOM.render(
-  <AppContainer><Test/></AppContainer>, document.querySelector('[app]'));
+  <AppContainer><SamplePage/></AppContainer>, document.querySelector('[app]'));
 }
 
 render();

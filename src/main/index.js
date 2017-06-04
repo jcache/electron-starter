@@ -20,11 +20,8 @@ app.on('ready', () => {
     });
   }
   
-  initializeTable(`campaign`, `Campaign`);
-  initializeTable(`character`, `Character`);
   initializeTable(`application`, `Application`);
-  initializeTable(`player`, `Player`);
-
+ 
   enableLiveReload({strategy: 'react-hmr'});
   
   mainWindow = new BrowserWindow({
